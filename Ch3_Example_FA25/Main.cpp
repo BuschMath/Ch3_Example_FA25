@@ -8,6 +8,7 @@ int main()
 	x = x + 1;
 	std::cout << "x = " << x << std::endl;
 
+	// Demonstrating floating point precision issues
 	float y = 0.1f;
 
 	y = y + 0.1f;
