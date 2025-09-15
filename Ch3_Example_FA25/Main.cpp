@@ -3,7 +3,7 @@
 int main()
 {
 	int x = 0;
-	if (x = 0)
+	if (x == 0)
 	{
 		std::cout << "True" << std::endl;
 	}
