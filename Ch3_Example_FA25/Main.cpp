@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <iomanip>
+#include <string>
 
 int awesomeFunction()
 {
@@ -66,6 +67,13 @@ int main()
 	std::cout << std::setprecision(4) << "The cost of the item is $" << value << std::endl;
 	std::cout << "The cost of the item is $" << std::setw(10) << value << std::endl;
 	std::cout << "The cost of the item is $" << value << std::endl;
+
+	std::string str = "Hello, World!";
+	std::cout << str << std::endl;
+	std::cout << "Length of str: " << str.length() << std::endl;
+	std::cout << "First character of str: " << str.at(0) << std::endl;
+	std::cout << "Substring of str (6, 5): " << str.substr(6, 5) << std::endl;
+	std::cout << str.substr(6, 5) + " everyone!" << std::endl;
 
 	return 0;
 }
