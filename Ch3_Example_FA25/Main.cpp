@@ -63,7 +63,9 @@ int main()
 	std::cout << "sin(angle) = " << std::sin(angle) << std::endl;
 
 	float value = 12.34567f;
-	std::cout << std::setprecision(4) << "The cost of the item is $" << value;
+	std::cout << std::setprecision(4) << "The cost of the item is $" << value << std::endl;
+	std::cout << "The cost of the item is $" << std::setw(10) << value << std::endl;
+	std::cout << "The cost of the item is $" << value << std::endl;
 
 	return 0;
 }
