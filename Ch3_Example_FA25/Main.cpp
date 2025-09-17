@@ -1,8 +1,15 @@
 #include <iostream>
+#include <cmath>
+#include <iomanip>
 
 int awesomeFunction()
 {
 	return 42;
+}
+
+int sum(int a, int b, int c)
+{
+	return a + b + c;
 }
 
 int main()
@@ -44,6 +51,19 @@ int main()
 	std::cout << "mixed division of 5 / 2.0: " << 5 / 2.0 << std::endl;
 
 	std::cout << "awesomeFunction() returns: " << awesomeFunction() << std::endl;
+
+	int a = 1;
+	int b = 2;
+	int c = 3;
+
+	std::cout << "sum(a, b, c) = " << sum(a, b, c) << std::endl;
+
+	// Demonstrating use of math library
+	double angle = 3.14159265358979 / 4; // radians
+	std::cout << "sin(angle) = " << std::sin(angle) << std::endl;
+
+	float value = 12.34567f;
+	std::cout << std::setprecision(4) << "The cost of the item is $" << value;
 
 	return 0;
 }
