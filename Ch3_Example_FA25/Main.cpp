@@ -75,5 +75,7 @@ int main()
 	std::cout << "Substring of str (6, 5): " << str.substr(6, 5) << std::endl;
 	std::cout << str.substr(6, 5) + " everyone!" << std::endl;
 
+	// End of demonstration
+
 	return 0;
 }
